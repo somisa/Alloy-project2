@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>iba.somisa.hu</id>
+    <name>pbaweb2015</name>
+    <version>1.0</version>
+    <publisher>somosandras</publisher>
+    <url>http://iba.somisa.hu</url>
+    <description>undefined</description>
+    <copyright>2015 by somosandras</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>412b9b70-8793-4be6-9888-483f0d755aa2</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+    </deployment-targets>
+    <sdk-version>3.5.1.RC</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">56010bb60b8f051a4850f81d</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">KhpUFB5uBjGjcAUNSACWYCBSIy17AEk5</property>
+    <property name="acs-oauth-key-development" type="string">y4N5t2EJ0nTLoTZEhhXAuHSTbFrE8aWZ</property>
+    <property name="acs-api-key-development" type="string">4jHMyDLW5Q0vvhx5i4m9caZXU7DJf06Q</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">KeV2NBXf8AP38rMcCL</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">b4VapOwMnrqBAkdNzfH3ccnoHby2yq9e</property>
+    <property name="acs-oauth-key-production" type="string">BJdB9bxdLjWDnbX3VTDOPoXBrQ3jns7J</property>
+    <property name="acs-api-key-production" type="string">1QPn5fqEKgqG8r0p72LcslEXhD6sCJTT</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">0AhZoK73IhAxdEy8x5</property>
+    <property name="appc-org-id" type="string">100068974</property>
+    <property name="appc-creator-user-id" type="string">cdadc018-79c3-4a9b-8ed8-3ac80f143d3d</property>
+</ti:app>

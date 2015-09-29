@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container">
+		$param = "Ti.UI.SIZE";
+		<View layout="vertical" height="Ti.UI.SIZE">
+			<Label id="label" onClick="doClick">Hello World</Label>
+			<Label id="label2" onClick="doClick">Hello2</Label>	
+			<Label id="label2" onClick="doClick">Hello3</Label>	
+		</View>
+		
+		
+	</Window>
+</Alloy>
